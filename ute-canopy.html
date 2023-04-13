@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caravan Custom Canvas</title>
+
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="Caravan Custom Canvas" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/ambed-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/ambed.css" />
+    <link rel="stylesheet" href="assets/css/ambed-responsive.css" />
+
+    <!-- modes css -->
+    <link rel="stylesheet" id="jssMode" href="assets/css/ambed-light.css" />
+
+    <!-- toolbar css -->
+    <link rel="stylesheet" href="assets/vendors/toolbar/css/toolbar.css" />
+</head>
+
+<body class="custom-cursor">
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header clearfix">
+            <div class="main-header__top">
+                <div class="container">
+                    <div class="main-header__top-inner clearfix">
+                        <div class="main-header__logo">
+                            <a href="index">
+                                <img src="assets/images/resources/logo-1.png" alt="" class="dark-logo" />
+                                <img src="assets/images/resources/logo-2.png" alt="" class="light-logo" />
+                            </a>
+                        </div>
+                        <div class="main-header__top-right">
+                            <div class="main-header__top-right-content">
+                                <div class="main-header__top-address-box">
+                                    <ul class="list-unstyled main-header__top-address">
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-phone-call"></span>
+                                            </div>
+                                            <div class="content">
+                                                <p>Call anytime</p>
+                                                <h5><a href="tel:0424 848 521">0424 848 521</a></h5>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-message"></span>
+                                            </div>
+                                            <div class="content">
+                                                <p>Send email</p>
+                                                <h5>
+                                                    <a href="mailto: caravancustomcanvas@gmail.com">
+                                                        caravancustomcanvas@gmail.com</a>
+                                                </h5>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon icon--location">
+                                                <span class="icon-location"></span>
+                                            </div>
+                                            <div class="content">
+                                                <p>Find Us</p>
+                                                <h5>Beckenham park, WA</h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-header__top-right-social">
+                                    <a href="https://www.facebook.com/people/Caravan-Custom-Canvas/100063453139974"><i
+                                            class="fab fa-facebook"></i></a>
+
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="main-menu clearfix">
+                <div class="main-menu__wrapper clearfix">
+                    <div class="container">
+                        <div class="main-menu__wrapper-inner clearfix">
+                            <div class="main-menu__left">
+                                <div class="main-menu__main-menu-box">
+                                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                    <ul class="main-menu__list">
+                                        <li class="d">
+                                            <a href="index.html">Home </a>
+                                            <ul></ul>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Services</a>
+                                            <ul>
+                                                <li><a href="canvas-replacement.html">Canvas Replacement</a></li>
+                                                <li><a href="pop-top-replacement.html">Pop top Replacement</a></li>
+                                                <li><a href="trailer-cover.html">Trailer cover</a></li>
+                                                <li><a href="trailer-repair.html">Trailer repair</a></li>
+                                                <li><a href="caravan-awning.html">Caravan Awning and Annexes</a></li>
+                                                <li><a href="custom-cover.html">Custom made cover</a></li>
+                                                <li><a href="boat-cover.html">Boat Covers</a></li>
+                                                <li><a href="caravan-accessories.html">Caravan Accessories</a></li>
+                                                <li><a href="safety-net.html">Safety Net</a></li>
+                                                <li><a href="ute-canopy.html">UTE Canopy</a></li>
+                                                <li><a href="truck-traps.html">Truck Traps & Side curtain</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a href="gallery.html">Gallery</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="reviews.html">Review</a>
+                                        </li>
+
+                                        <li><a href="contact.html">Contact </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="main-menu__right">
+                                <div class="main-menu__search-btn-box">
+                                    <div class="main-menu__search-box">
+                                        <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
+                                    </div>
+                                    <div class="main-menu__btn-box">
+                                        <a href="contact.html" class="thm-btn main-menu__btn">Free Measuring Quote</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div>
+            <!-- /.sticky-header__content -->
+        </div>
+        <!-- /.stricky-header -->
+
+        <section class="page-header">
+            <div class="page-header-bg" style="background-image: url(assets/images/project/project-1-4.jpg)"></div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <h2>UTE Canopy</h2>
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span>/</span></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><span>/</span></li>
+                        <li>UTE Canopy</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="service-details__right">
+                            <div class="service-details__img">
+                                <img src="assets/images/services/cementrendering.jpg" alt="" />
+                                <!-- <div class="service-details__icon">
+                                                                <span class="icon-wallpaper-4"></span>
+                                                            </div> -->
+                            </div>
+                            <div class="service-details__content">
+                                <h3 class="service-details__content-title">
+                                    UTE Canopy
+                                </h3>
+                                <div class="image-grid">
+                                    <img src="./assets/images/ute-canopy/image-1.jpg" alt="" class="service__image">
+                                    <img src="./assets/images/ute-canopy/image-2.jpg" alt="" class="service__image">
+                                    <img src="./assets/images/ute-canopy/image-3.jpg" alt="" class="service__image">
+                                    <img src="./assets/images/ute-canopy/image-4.jpg" alt="" class="service__image">
+                                    <img src="./assets/images/ute-canopy/image-5.jpg" alt="" class="service__image">
+                                    <img src="./assets/images/ute-canopy/image-6.jpg" alt="" class="service__image">
+                                    <img src="./assets/images/ute-canopy/image-7.jpg" alt="" class="service__image">
+                                    <img src="./assets/images/ute-canopy/image-8.jpg" alt="" class="service__image">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="service-details__left">
+                            <div class="service-details__category">
+                                <ul class="service-details__category-list list-unstyled">
+                                    <li><a href="canvas-replacement.html">Canvas Replacement</a></li>
+                                                <li><a href="pop-top-replacement.html">Pop top Replacement</a></li>
+                                                <li><a href="trailer-cover.html">Trailer cover</a></li>
+                                                <li><a href="trailer-repair.html">Trailer repair</a></li>
+                                                <li><a href="caravan-awning.html">Caravan Awning and Annexes</a></li>
+                                                <li><a href="custom-cover.html">Custom made cover</a></li>
+                                                <li><a href="boat-cover.html">Boat Covers</a></li>
+                                                <li><a href="caravan-accessories.html">Caravan Accessories</a></li>
+                                                <li><a href="safety-net.html">Safety Net</a></li>
+                                                <li><a href="ute-canopy.html">UTE Canopy</a></li>
+                                                <li><a href="truck-traps.html">Truck Traps & Side curtain</a></li>
+                                </ul>
+                            </div>
+                            <div class="service-details__need-help">
+                                <div class="service-details__need-help-bg" style="
+                      background-image: url(assets/images/backgrounds/service-details-need-help-bg.jpg);
+                    "></div>
+                                <div class="service-details__need-help-icon">
+                                    <span class="icon-phone-call"></span>
+                                </div>
+                                <h2 class="service-details__need-help-title">
+                                    Consult with <br />
+                                    a Professional <br />
+                                </h2>
+                                <div class="service-details__need-help-contact">
+                                    <p>Call Us Today</p>
+                                    <a href="tel:0424 848 521"> 0424 848 521</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Site Footer Start-->
+        <footer class="site-footer">
+            <div class="site-footer-bg" style="
+            background-image: url(assets/images/backgrounds/site-footer-bg.jpg);
+          "></div>
+            <div class="site-footer__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="footer-widget__column footer-widget__about">
+                                <div class="footer-widget__logo">
+                                    <a href="index"><img src="assets/images/resources/footer-logo.png" alt="" /></a>
+                                </div>
+                                <div class="footer-widget__about-text-box">
+                                    <p class="footer-widget__about-text">
+                                        Affordable Canvas specialises in custom made products to
+                                        suit all your needs with over 10 years experience.
+                                    </p>
+                                </div>
+                                <div class="site-footer__social">
+                                    <a href="https://www.facebook.com/people/Caravan-Custom-Canvas/100063453139974/"><i
+                                            class="fab fa-facebook"></i></a>
+
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div class="footer-widget__column footer-widget__explore clearfix">
+                                <h3 class="footer-widget__title">Explore</h3>
+                                <ul class="footer-widget__explore-list list-unstyled clearfix">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Free Quote</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="footer-widget__column footer-widget__services clearfix">
+                                <h3 class="footer-widget__title">Services</h3>
+                                <ul class="footer-widget__services-list list-unstyled clearfix">
+                                    <li><a href="canvas-replacement.html">Canvas Replacement</a></li>
+                                    <li><a href="pop-top-replacement.html">Pop top Replacement</a></li>
+                                    <li><a href="trailer-cover.html">Trailer cover</a></li>
+                                    <li><a href="trailer-repair.html">Trailer repair</a></li>
+                                    <li><a href="caravan-awning.html">Caravan Awning and Annexes</a></li>
+                                    <li><a href="custom-cover.html">Custom made cover</a></li>
+                                    <li><a href="boat-cover.html">Boat Covers</a></li>
+                                    <li><a href="caravan-accessories.html">Caravan Accessories</a></li>
+                                    <li><a href="safety-net.html">Safety Net</a></li>
+                                    <li><a href="ute-canopy.html">UTE Canopy</a></li>
+                                    <li><a href="truck-traps.html">Truck Traps & Side curtain</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="footer-widget__column footer-widget__contact clearfix">
+                                <h3 class="footer-widget__title">Contact</h3>
+                                <ul class="footer-widget__contact-list list-unstyled clearfix">
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-phone-call"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Call anytime</h5>
+                                            <p><a href="tel:0424 848 521">0424 848 521</a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-message"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Send email</h5>
+                                            <p>
+                                                <a href="mailto: caravancustomcanvas@gmail.com">
+                                                    caravancustomcanvas@gmail.com</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-location"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Find Us</h5>
+                                            <p>Beckenham park, WA</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-footer__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="site-footer__bottom-inner">
+                                <p class="site-footer__bottom-text">
+                                    Caravan Custom Canvas © Copyright 2023 by
+                                    <a href="#">Murphys Technology</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Site Footer End-->
+    </div>
+    <!-- /.page-wrapper -->
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index" aria-label="logo image"><img src="assets/images/resources/footer-logo.png" width="155"
+                        alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto: caravancustomcanvas@gmail.com">
+                        caravancustomcanvas@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:0424 848 521">0424 848 521</a>
+                </li>
+            </ul>
+            <!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="https://www.facebook.com/people/Caravan-Custom-Canvas/100063453139974/"
+                        class="fab fa-facebook-square"></a>
+
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+                <!-- /.mobile-nav__social -->
+            </div>
+            <!-- /.mobile-nav__top -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <div class="gallery-overlay">
+        <i class="fa-solid fa-xmark" id="close-overlay"></i>
+    </div>
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+    <script src="assets/vendors/circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
+
+    <!-- template js -->
+    <script src="assets/js/ambed.js"></script>
+    <script src="assets/js/gallery.js"></script>
+
+    <!-- toolbar js -->
+    <script src="assets/vendors/toolbar/js/js.cookie.min.js"></script>
+    <script src="assets/vendors/toolbar/js/jQuery.style.switcher.min.js"></script>
+    <script src="assets/vendors/toolbar/js/toolbar.js"></script>
+</body>
+
+</html>
